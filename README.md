@@ -2,5 +2,8 @@
 Sentara Internship Website
 
 Contributers:
-  Nathaniel Salazar
+  Nathaniel Salazar,
   Corey Schaeffer
+
+Mentor:
+  Christopher Story
