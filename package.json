@@ -1,0 +1,19 @@
+{
+  "name": "pc_hobby",
+  "version": "1.0.0",
+  "description": "Sentara Internship Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nintendroid1/pc_hobby.git"
+  },
+  "author": "Nathaniel Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nintendroid1/pc_hobby/issues"
+  },
+  "homepage": "https://github.com/Nintendroid1/pc_hobby#readme"
+}
