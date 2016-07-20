@@ -57,15 +57,16 @@
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
       }
     </style>
+    <script src="functions.js"></script>
   </head>
-  <body>
+  <body onload="myDelegate(myFunction(1,2))">
     <div id="message">
       <h1>Welcome to PC Hobby</h1>
       <p>What are your hobbies?</p>
-      <p id="demo"></p>
+      <p id="demo">Hello</p>
        <form>
-        <input type="radio" name="hobby" value="gaming"> Gaming<br>
-        <input type="radio" name="hobby" value="editing"> Video/Photo Editing<br>
+        <input type="radio" name="hobby" value="gaming"> Gaming<hr>
+        <input type="radio" name="hobby" value="editing"> Video/Photo Editing<hr>
         <input type="radio" name="hobby" value="rendering"> Rendering/3D Models<br>
         <input type="radio" name="hobby" value="web"> Web Surfing<br>
         <input type="radio" name="hobby" value="profession"> Professional
@@ -74,13 +75,5 @@
         <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Build a PC</a></li>
       </ul>
     </div>
-    <script>
-      //function myFunction(min, max) 
-      //{
-        //alert("Page is loaded");
-        //var bgNum = Math.floor(Math.random() * 5) + 1;
-        //document.getElementById("demo").innerHTML = bgNum;
-      //}
-    </script> 
   </body>
 </html>
