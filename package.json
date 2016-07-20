@@ -16,8 +16,9 @@
     "url": "https://github.com/Nintendroid1/pc_hobby/issues"
   },
   "homepage": "https://github.com/Nintendroid1/pc_hobby#readme",
-  "dependencies": {
-    "angular": "^1.5.7",
-    "bootstrap": "^3.3.6"
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1"
   }
 }
