@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app ="pc_hobby">
   <head>
     <meta charset="utf-8">
     <title>PC Hobby</title>
     <link rel="stylesheet" type="text/css" href="CSS\Style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+    <script type="text/javascript" src="Javascript\app.js"></script>
   </head>
   <body onload="bgPicker()">
-    <div id="message">
-      <h1>Welcome to PC Hobby</h1>
-      <p>What are your hobbies?</p>
-      <p id="demo"></p>
-       <form>
-        <input type="radio" name="hobby" value="gaming"> Gaming<br>
-        <input type="radio" name="hobby" value="editing"> Video/Photo Editing<br>
-        <input type="radio" name="hobby" value="rendering"> Rendering/3D Models<br>
-        <input type="radio" name="hobby" value="web"> Web Surfing<br>
-        <input type="radio" name="hobby" value="profession"> Professional
-      </form> 
-      <ul>
-        <li><a target="_blank" href="pc_parts.html">Build a PC</a></li>
-      </ul>
-    </div>
+   <ng-view></ng-view>
     <script src="Javascript\functions.js"></script>
   </body>
 </html>
