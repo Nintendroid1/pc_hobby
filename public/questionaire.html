@@ -1,14 +1,14 @@
  <div id="message">
       <h1>Welcome to PC Hobby</h1>
       <p>What are your hobbies?</p>
-      <p>{{1+1}}</p>
+      <p>{{answer}}</p>
       <p id="demo"></p>
        <form>
-        <input type="radio" name="hobby" value="gaming"> Gaming<br>
-        <input type="radio" name="hobby" value="editing"> Video/Photo Editing<br>
-        <input type="radio" name="hobby" value="rendering"> Rendering/3D Models<br>
-        <input type="radio" name="hobby" value="web"> Web Surfing<br>
-        <input type="radio" name="hobby" value="profession"> Professional
+        <input type="radio" name="hobby" value="gaming" ng-click="answer = 1"> Gaming<br>
+        <input type="radio" name="hobby" value="editing" ng-click="answer = 2"> Video/Photo Editing<br>
+        <input type="radio" name="hobby" value="rendering" ng-click="answer = 3"> Rendering/3D Models<br>
+        <input type="radio" name="hobby" value="web" ng-click="answer = 4"> Web Surfing<br>
+        <input type="radio" name="hobby" value="profession" ng-click="answer = 5"> Professional
       </form> 
       <ul>
         <li><a href="#/pc_parts">Build a PC</a></li>

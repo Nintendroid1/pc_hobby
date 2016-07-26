@@ -10,7 +10,7 @@ config(['$routeProvider', function($routeProvider) {
 
 
 app.controller('pc_Controller', function(){
-    //this.questionaire = question;
+    this.answer = 1;
     //this.parts = parts;
 })
 
