@@ -12,17 +12,33 @@ table {
 
 td {
     height: 50px;
-    padding: 10px;
-    text-align: left;
+    font-size: 12pt;
+    text-align: center;
     vertical-align: center;
+}
+
+td img {
+    padding: 5px;
+    height:50px;
+    width: 50px;
+    transition: 2s;
+}
+
+td img:hover {
+    width:150px;
+    height:150px;
+    transition: 2s;
+    text-align: center;
 }
 
 th {
     height: 50px;
     text-align: center;
+    font-size: 16px;
     vertical-align: center;
     color: black;
 }
+
 
 table, th, td {
     border: 2px solid black;
