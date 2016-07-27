@@ -18,7 +18,15 @@ app.controller('pc_Controller', function($location){
     $("[data-toggle=tooltip]").tooltip();
 });
 
-parts.controller('parts_Controller', function() {
+app.controller('parts_Controller', function($location) {
+    var searchObject = $location.search();
+    this.answer = searchObject.build;
+   // if (searchObject == '/pc_parts?build=gaming'P)\
 
+   this.builds = [
+       {name: "gaming", price: "12.44"},
+       {name: "3d", price: "144.44"},
+       {name: "professional", price: "55.44"}
+   ];
 });
 
