@@ -6,12 +6,18 @@
       <p>{{pcCtrl.answer}}</p>
       <p id="demo"></p>
         <form>
-        <input type="radio" ng-model="pcCtrl.answer" value="gaming"> Gaming <br>
-        <input type="radio" ng-model="pcCtrl.answer" value="video"> Video/Photo Editing<br>
-        <input type="radio" ng-model="pcCtrl.answer" value="3d"> Rendering/3D Models<br>
-        <input type="radio" ng-model="pcCtrl.answer" value="web"> Web Surfing<br>
-        <input type="radio" ng-model="pcCtrl.answer" value="professional"> Professional<br>
-        <button class="btn btn-black" ng-click="pcCtrl.submitAnswer(pcCtrl.answer)">Build a PC</button>
-      </form>
+          <div class="radio">
+            <label data-toggle="tooltip" data-placement="right" title="Gaming">
+              <input type="radio" ng-model="pcCtrl.answer" value="gaming">
+              Gaming
+            </label>
+          </div>
+          
+          <input type="radio" ng-model="pcCtrl.answer" value="video"> Video/Photo Editing<br>
+          <input type="radio" ng-model="pcCtrl.answer" value="3d"> Rendering/3D Models<br>
+          <input type="radio" ng-model="pcCtrl.answer" value="web"> Web Surfing<br>
+          <input type="radio" ng-model="pcCtrl.answer" value="professional"> Professional<br>
+          <button class="btn btn-black" ng-click="pcCtrl.submitAnswer(pcCtrl.answer)">Build a PC</button>
+        </form>
     </div>
 </div>

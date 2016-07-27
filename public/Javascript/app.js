@@ -15,6 +15,7 @@ app.controller('pc_Controller', function($location){
         $location.search('build', answer);
         $location.path("/pc_parts");
     };
+    $("[data-toggle=tooltip]").tooltip();
 });
 
 parts.controller('parts_Controller', function() {
