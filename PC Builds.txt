@@ -1,0 +1,35 @@
+Gaming:
+	Low-End:
+		https://pcpartpicker.com/guide/JTD48d/entry-level-gaming-build
+	Mid-Range:
+		https://pcpartpicker.com/guide/gCKH99/great-gaming-build
+	High-End:
+		https://pcpartpicker.com/guide/hGwrxr/enthusiast-gaming-build
+
+Video/Photo Editing:
+	Just look at this, it has tiers inside:
+		http://www.logicalincrements.com/articles/videoediting
+
+Rendering/3D Models:
+	Low-End:
+		http://pcpartpicker.com/list/FhwxQ7
+	Mid-Range:
+		http://pcpartpicker.com/list/f47Rqs
+	High-End:
+		http://pcpartpicker.com/list/bpbs7P
+
+Web Surfing:
+	Low-End:
+		http://pcpartpicker.com/list/9cnNBm
+	Mid-Range:
+		http://pcpartpicker.com/list/bQQtRB
+	High-End:
+		http://pcpartpicker.com/list/cbbNhM
+
+Professional:
+	Low-End:
+		http://pcpartpicker.com/list/DCNy99
+	Mid-Range:
+		http://pcpartpicker.com/list/9DrcFT
+	High-End:
+		http://pcpartpicker.com/list/DZtW6h
