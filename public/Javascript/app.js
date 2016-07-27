@@ -3,14 +3,17 @@ var app = angular.module('pc_hobby', [
 ]).
 config(['$routeProvider', function($routeProvider) {
     $routeProvider
-        .when("/questionaire", {templateUrl: "questionaire.html", controller: "pc_Controller"})
+        .when("/questionaire", {templateUrl: "questionaire.html", controller: "pc_Controller", controllerAs: "pcCtrl"})
         .when("/pc_parts", {templateUrl: "pc_parts.html", controller: "pc_Controller"})
         .otherwise({redirectTo: '/questionaire'});
 }]);
 
 
 app.controller('pc_Controller', function(){
-    this.answer = 1;
+    //this.answer = 1;
+    this.submitAnswer = function(answer){
+        alert(answer);
+    };
     //this.parts = parts;
 });
 
