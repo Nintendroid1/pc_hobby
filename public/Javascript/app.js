@@ -1,5 +1,6 @@
 var app = angular.module('pc_hobby', [
-    'ngRoute'
+    'ngRoute',
+    'firebase'
 ]).
 config(['$routeProvider', function($routeProvider) {
     $routeProvider
@@ -17,9 +18,13 @@ app.controller('pc_Controller', function($location){
     };
 });
 
-app.controller('parts_Controller', function($location) {
+app.controller('parts_Controller', function($location, $firebaseArray) {
     var searchObject = $location.search();
     this.build = searchObject.build;
+
+    var ref = firebase.database().ref();
+    // download the data into a local object
+    this.serverData = $firebaseArray(ref);
 
     this.computers = [
         {
