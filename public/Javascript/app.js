@@ -13,6 +13,7 @@ app.controller('pc_Controller', function($location){
     this.answer = "gaming";
     this.submitAnswer = function(answer) {
         $location.search('build', answer);
+        $location.path("/pc_parts");
     };
 });
 
