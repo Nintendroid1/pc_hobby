@@ -1,16 +1,17 @@
- <div id="message">
+ <!--<div id="message">-->
+<div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-default panel-padded panel-pushed-down">
       <h1>Welcome to PC Hobby</h1>
       <p>What are your hobbies?</p>
       <p>{{pcCtrl.answer}}</p>
       <p id="demo"></p>
-       <form>
+        <form>
         <input type="radio" ng-model="pcCtrl.answer" value="gaming"> Gaming <br>
         <input type="radio" ng-model="pcCtrl.answer" value="video"> Video/Photo Editing<br>
         <input type="radio" ng-model="pcCtrl.answer" value="3d"> Rendering/3D Models<br>
         <input type="radio" ng-model="pcCtrl.answer" value="web"> Web Surfing<br>
-        <input type="radio" ng-model="pcCtrl.answer" value="professional"> Professional
-      </form> 
-      <ul>
-        <li><button ng-click="pcCtrl.submitAnswer(pcCtrl.answer)">Build a PC</button></li>
-      </ul>
+        <input type="radio" ng-model="pcCtrl.answer" value="professional"> Professional<br>
+        <button class="btn btn-black" ng-click="pcCtrl.submitAnswer(pcCtrl.answer)">Build a PC</button>
+      </form>
     </div>
+</div>

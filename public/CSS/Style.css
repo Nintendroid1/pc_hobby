@@ -49,3 +49,26 @@ body {
         font-size: 14px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
       }
+
+/*After Market*/
+.panel.panel-padded{
+  padding: 10px 20px;
+}
+
+.panel.panel-pushed-down {
+  margin-top:50px;
+}
+
+.panel h1 {
+  text-align: center;
+}
+
+.panel button.btn {
+  margin: 0 auto;
+  display: block; 
+}
+
+.btn.btn-black {
+  color: white;
+  background-color: black;
+}
