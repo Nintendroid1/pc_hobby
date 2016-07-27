@@ -19,9 +19,9 @@ app.controller('pc_Controller', function($location){
 
 app.controller('parts_Controller', function($location) {
     var searchObject = $location.search();
-    this.answer = searchObject.build;
+    this.build = searchObject.build;
 
-    this.builds = [
+    this.computers = [
         {
             type: "gaming", 
             builds: [
@@ -109,6 +109,8 @@ app.controller('parts_Controller', function($location) {
             ]
         },
     ];
+
+    //this.buildsToDisplay = this.computers.where(type=this.build).builds
 
 
 });

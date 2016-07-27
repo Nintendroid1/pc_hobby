@@ -1,23 +1,27 @@
 <div class="col-md-12">
   <div class="panel panel-default panel-padded panel-pushed-down">
-    <h1>PC Hobby: {{partsCtrl.answer}}</h1>
-    <div>
-      <table>
-        <tr>
-          <th>Part Type</th>
-          <th>Part Name</th>
-          <th>Picture</th>
-          <th>Price</th>
-          <th>Link</th>
-        </tr>
-        <tr>
-          <td>A</td>
-          <td>B</td>
-          <td>i3-6100</td>
-          <td>$110.99</td>
-          <td>E</td>
-        </tr>
-      </table>
+    <h1>PC Hobby: {{partsCtrl.build}}</h1>
+
+    <div ng-repeat="type in partsCtrl.computers" ng-show="type.type === partsCtrl.build">
+      <div ng-repeat="build in type.builds">
+        <h2>{{build.grade}}
+        <table>
+          <tr>
+            <th>Part Type</th>
+            <th>Part Name</th>
+            <th>Picture</th>
+            <th>Price</th>
+            <th>Link</th>
+          </tr>
+          <tr ng-repeat="part in build.parts">
+            <td>{{part.component}}</td>
+            <td>{{part.name}}</td>
+            <td><img ng-src="{{part.imgUrl}}"></td>
+            <td>{{part.price}}</td>
+            <td><a ng-href="{{part.purchaseLink}}" class="btn">Buy</a></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 </div>
