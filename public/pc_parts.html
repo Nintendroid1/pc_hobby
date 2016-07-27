@@ -1,32 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>PC Hobby</title>
-    <link rel="stylesheet" type="text/css" href="CSS\Table.css">
-  </head>
-  <body>
-    <section ng-controller="pc_Controller as control"></section>
-    <h1>PC Hobby</h1>
-        <p>{{control.answer}}</p>
-   <div style="overflow-x:auto">
-     <table console.log(answer)>
-       <a href="https://pcpartpicker.com/guide/JTD48d/entry-level-gaming-build" ng-show="answer === 1">Gaming: Low-End</a>
-      <tr>
-        <th>Picture</th>
-        <th>Part Type</th>
-        <th>Brand</th>
-        <th>Price</th>
-        <th>Link</th>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>i3-6100</td>
-        <td>$110.99</td>
-        <td>E</td>
-     </tr>
-       </table>
-     </div>
-  </body>
-</html>
+<h1>PC Hobby</h1>
+<p>{{control.answer}}</p>
+  <div style="overflow-x:auto">
+    <table console.log(answer)>
+      <a href="https://pcpartpicker.com/guide/JTD48d/entry-level-gaming-build" ng-show="answer === 1">Gaming: Low-End</a>
+    <tr>
+      <th>Picture</th>
+      <th>Part Type</th>
+      <th>Brand</th>
+      <th>Price</th>
+      <th>Link</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>i3-6100</td>
+      <td>$110.99</td>
+      <td>E</td>
+    </tr>
+    </table>
+  </div>
