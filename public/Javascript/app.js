@@ -112,6 +112,10 @@ app.controller('parts_Controller', function($location) {
 
     //this.buildsToDisplay = this.computers.where(type=this.build).builds
 
+    $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
 
 });
 
