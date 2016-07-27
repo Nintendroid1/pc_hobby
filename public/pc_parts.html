@@ -6,10 +6,12 @@
     <link rel="stylesheet" type="text/css" href="CSS\Table.css">
   </head>
   <body>
+    <section ng-controller="pc_Controller as control"></section>
     <h1>PC Hobby</h1>
+        <p>{{control.answer}}</p>
    <div style="overflow-x:auto">
-     <table>
-       <a href="https://pcpartpicker.com/guide/JTD48d/entry-level-gaming-build">Gaming: Low-End</a>
+     <table console.log(answer)>
+       <a href="https://pcpartpicker.com/guide/JTD48d/entry-level-gaming-build" ng-show="answer === 1">Gaming: Low-End</a>
       <tr>
         <th>Picture</th>
         <th>Part Type</th>
