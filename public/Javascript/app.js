@@ -11,11 +11,9 @@ config(['$routeProvider', function($routeProvider) {
 
 app.controller('pc_Controller', function($location){
     this.answer = "gaming";
-    this.submitAnswer = function(answer){
-        alert(answer);
+    this.submitAnswer = function(answer) {
+        $location.search('build', answer);
     };
-
-    var path = $location.path();
 });
 
 parts.controller('parts_Controller', function() {
