@@ -131,5 +131,17 @@ app.controller('admin_Controller', function($firebaseObject){
     this.save = function(){
         this.serverData.$save();
     }
+
+    this.addHobby = function(){
+        this.serverData.computers.push({builds:[], type: "ChangeMe"});
+    }
+
+    this.addBuild = function(type){
+        type.builds.push({grade: "Bare", parts:[]});
+    }
+
+    this.addPart = function(build){
+        build.parts.push({component: "metal"});
+    }
 });
 

@@ -3,25 +3,25 @@
       <h1>Admin</h1>
       <h3>This is to add data to your firebase database</h3>
       <button ng-click="adminCtrl.save()">Save</button>
-      <table class="table table-condensed">
+      <table>
         <tr>
-            <th>Hobby Type</th>
+            <th>Hobby Type<button ng-click="adminCtrl.addHobby()">Add Hobby</button></th>
             <th></th>
         </tr>
         <tr ng-repeat="type in adminCtrl.serverData.computers">
             <td><input type="text" ng-model="type.type"></td>
             <td>
-                <table class="table table-condensed">
+                <table>
                     <tr>
-                        <th>Build Grade</th>
+                        <th>Build Grade<button ng-click="adminCtrl.addBuild(type)">Add Build</button></th>
                         <th></th>
                     </tr>
                     <tr ng-repeat="build in type.builds">
                         <td><input type="text" ng-model="build.grade"></td>
                         <td>
-                            <table class="table table-condensed">
+                            <table>
                                 <tr>
-                                    <th>Part Type</th>
+                                    <th>Part Type<button ng-click="adminCtrl.addPart(build)">Add Part</button></th>
                                     <th>Part Name</th>
                                     <th>Picture</th>
                                     <th>Price</th>
