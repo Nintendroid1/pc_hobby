@@ -1,0 +1,46 @@
+<div class="col-md-12">
+  <div class="panel panel-default panel-padded panel-pushed-down">
+      <h1>Admin</h1>
+      <h3>This is to add data to your firebase database</h3>
+      <button ng-click="adminCtrl.save()">Save</button>
+      <table class="table table-condensed">
+        <tr>
+            <th>Hobby Type</th>
+            <th></th>
+        </tr>
+        <tr ng-repeat="type in adminCtrl.serverData.computers">
+            <td><input type="text" ng-model="type.type"></td>
+            <td>
+                <table class="table table-condensed">
+                    <tr>
+                        <th>Build Grade</th>
+                        <th></th>
+                    </tr>
+                    <tr ng-repeat="build in type.builds">
+                        <td><input type="text" ng-model="build.grade"></td>
+                        <td>
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th>Part Type</th>
+                                    <th>Part Name</th>
+                                    <th>Picture</th>
+                                    <th>Price</th>
+                                    <th>Link</th>
+                                </tr>
+                                <tr ng-repeat="part in build.parts">
+                                    <td><input type="text" ng-model="part.component"></td>
+                                    <td><input type="text" ng-model="part.name"></td>
+                                    <td><input type="text" ng-model="part.imgUrl"></td>
+                                    <td><input type="text" ng-model="part.price"></td>
+                                    <td><input type="text" ng-model="part.purchaseLink"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+      <button ng-click="adminCtrl.save()">Save</button>
+  </div>
+</div>

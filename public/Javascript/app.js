@@ -6,6 +6,7 @@ config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when("/questionaire", {templateUrl: "questionaire.html", controller: "pc_Controller", controllerAs: "pcCtrl"})
         .when("/pc_parts", {templateUrl: "pc_parts.html", controller: "parts_Controller", controllerAs: "partsCtrl"})
+        .when("/admin", {templateUrl: "admin.html", controller: "admin_Controller", controllerAs: "adminCtrl"})
         .otherwise({redirectTo: '/questionaire'});
 }]);
 
@@ -122,5 +123,13 @@ app.controller('parts_Controller', function($location, $firebaseArray, $firebase
         $(this).tab('show')
     });
 
+});
+
+app.controller('admin_Controller', function($firebaseObject){
+    var ref = firebase.database().ref();
+    this.serverData = $firebaseObject(ref);
+    this.save = function(){
+        this.serverData.$save();
+    }
 });
 
