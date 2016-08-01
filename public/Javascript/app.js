@@ -18,14 +18,14 @@ app.controller('pc_Controller', function($location){
     };
 });
 
-app.controller('parts_Controller', function($location, $firebaseArray) {
+app.controller('parts_Controller', function($location, $firebaseArray, $firebaseObject) {
     var searchObject = $location.search();
     this.build = searchObject.build;
 
     var ref = firebase.database().ref();
-    // download the data into a local object
-    this.serverData = $firebaseArray(ref);
+    this.serverData = $firebaseObject(ref);
 
+    //No used anymore.  It's in Firebase :)
     this.computers = [
         {
             type: "gaming", 

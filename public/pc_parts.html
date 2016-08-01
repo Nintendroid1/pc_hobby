@@ -2,26 +2,24 @@
   <div class="panel panel-default panel-padded panel-pushed-down">
     <h1>PC Hobby: {{partsCtrl.build}}</h1>
 
-
-    <p>{{partsCtrl.serverData | json}}</p>
-  <ul class="nav nav-tabs" role="tablist" id="myTabs">
+    <!--<ul class="nav nav-tabs" role="tablist" id="myTabs">
       <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
       <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
       <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
       <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-    </ul>
+    </ul>-->
 
     <!-- Tab panes -->
-    <div class="tab-content">
+    <!--<div class="tab-content">
       <div role="tabpanel" class="tab-pane active" id="home">Hello</div>
       <div role="tabpanel" class="tab-pane" id="profile">World</div>
       <div role="tabpanel" class="tab-pane" id="messages">You</div>
       <div role="tabpanel" class="tab-pane" id="settings">...</div>
-    </div>
+    </div>-->
 
-    <div ng-repeat="type in partsCtrl.computers" ng-show="type.type === partsCtrl.build">
+    <div ng-repeat="type in partsCtrl.serverData.computers" ng-show="type.type === partsCtrl.build">
       <div ng-repeat="build in type.builds">
-        <h2>{{build.grade}}
+        <h2>{{build.grade}}</h2>
         <table>
           <tr>
             <th>Part Type</th>
