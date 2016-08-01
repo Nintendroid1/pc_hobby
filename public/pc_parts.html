@@ -23,11 +23,7 @@
             <td><a ng-href="{{part.purchaseLink}}" target="_blank" class="btn">Buy</a></td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>{{partsCtrl.getBuildPrice(build) |currency}}</td>
-            <td></td>
+            <td colspan="5" class="totalPrice">Total Price: {{partsCtrl.getBuildPrice(build) |currency}}</td>
           </tr>
         </table>
       </div>

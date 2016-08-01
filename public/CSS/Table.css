@@ -7,6 +7,10 @@ h1{
 text-transform: capitalize;
 }
 
+.totalPrice{
+    text-align: right;
+}
+
 h2{
     text-transform: capitalize;
 }
