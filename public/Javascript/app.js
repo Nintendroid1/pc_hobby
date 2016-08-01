@@ -11,117 +11,22 @@ config(['$routeProvider', function($routeProvider) {
 }]);
 
 
-app.controller('pc_Controller', function($location){
+app.controller('pc_Controller', function($location, HobbyService){
     this.answer = "gaming";
     this.submitAnswer = function(answer) {
         $location.search('build', answer);
         $location.path("/pc_parts");
     };
+    this.hobbies = HobbyService.getAllLabelsAndValues();
 });
 
-app.controller('parts_Controller', function($location, $firebaseArray, $firebaseObject) {
+app.controller('parts_Controller', function($location, $firebaseObject, HobbyService) {
     var searchObject = $location.search();
     this.build = searchObject.build;
+    this.title = HobbyService.valueToLabel(searchObject.build);
 
     var ref = firebase.database().ref();
     this.serverData = $firebaseObject(ref);
-
-    //No used anymore.  It's in Firebase :)
-    this.computers = [
-        {
-            type: "gaming", 
-            builds: [
-                {
-                    grade: "low", 
-                    parts:[
-                        {
-                            component: "CPU", 
-                            name: "i7", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/83244e8e2a0e9660fd44d93ef7455222.med.256p.jpg", 
-                            price: "$123.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        },
-                        {
-                            component: "CPU Cooler", 
-                            name: "Noctua", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/5a7e17771baa12d656af9e55881136f0.256p.jpg", 
-                            price: "$34.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        }
-                    ]
-                },
-                {
-                    grade: "high", 
-                    parts:[
-                        {
-                            component: "CPU", 
-                            name: "i7", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/83244e8e2a0e9660fd44d93ef7455222.med.256p.jpg", 
-                            price: "$123.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        },
-                        {
-                            component: "CPU Cooler", 
-                            name: "Noctua", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/5a7e17771baa12d656af9e55881136f0.256p.jpg", 
-                            price: "$34.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            type: "video", 
-            builds: [
-                {
-                    grade: "low", 
-                    parts:[
-                        {
-                            component: "CPU", 
-                            name: "i7", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/83244e8e2a0e9660fd44d93ef7455222.med.256p.jpg", 
-                            price: "$123.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        },
-                        {
-                            component: "CPU Cooler", 
-                            name: "Noctua", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/5a7e17771baa12d656af9e55881136f0.256p.jpg", 
-                            price: "$34.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        }
-                    ]
-                },
-                {
-                    grade: "high", 
-                    parts:[
-                        {
-                            component: "CPU", 
-                            name: "i7", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/83244e8e2a0e9660fd44d93ef7455222.med.256p.jpg", 
-                            price: "$123.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        },
-                        {
-                            component: "CPU Cooler", 
-                            name: "Noctua", 
-                            imgUrl: "http://cdn.pcpartpicker.com/static/forever/images/product/5a7e17771baa12d656af9e55881136f0.256p.jpg", 
-                            price: "$34.22", 
-                            purchaseLink: "http://pcpartpicker.com/mr/superbiiz/sCNp99"
-                        }
-                    ]
-                }
-            ]
-        },
-    ];
-
-    //this.buildsToDisplay = this.computers.where(type=this.build).builds
-
-    $('#myTabs a').click(function (e) {
-        e.preventDefault()
-        $(this).tab('show')
-    });
 
     this.getBuildPrice = function(build){
         var totalPrice = 0;
@@ -129,7 +34,7 @@ app.controller('parts_Controller', function($location, $firebaseArray, $firebase
             totalPrice = totalPrice + parseFloat(part.price);
         })
         return totalPrice;
-    }
+    };
 
 });
 
@@ -151,5 +56,43 @@ app.controller('admin_Controller', function($firebaseObject){
     this.addPart = function(build){
         build.parts.push({component: "metal"});
     }
+});
+
+app.service('HobbyService', function(){
+    var hobbies = [
+        {label: "Gaming", value: "gaming"},
+        {label: "Video/Photo Editing", value: "video"},
+        {label: "Rendering/3D Models", value: "3d"},
+        {label: "Web Surfing", value: "web"},
+        {label: "Professional", value: "pro"}
+    ];
+
+    var valueToLabelFn = function(value){
+        var label = "Not Found";
+        angular.forEach(hobbies, function(hobby){
+            if(value == hobby.value)
+                label = hobby.label;
+        });
+        return label;
+    };
+
+    var labelToValueFn = function(label){
+        var value = "Not Found";
+        angular.forEach(hobbies, function(hobby){
+            if(label == hobby.label)
+                value = hobby.value;
+        });
+        return value;
+    };
+
+    var getAllLabelsAndValuesFn = function(){
+        return hobbies;
+    };
+
+    return {
+        valueToLabel: valueToLabelFn,
+        labelToValue: labelToValueFn,
+        getAllLabelsAndValues: getAllLabelsAndValuesFn
+    };
 });
 

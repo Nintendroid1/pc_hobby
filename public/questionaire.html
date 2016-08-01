@@ -6,11 +6,9 @@
       <!-- <p>{{pcCtrl.answer}}</p> -->
       <p id="demo"></p>
         <form>
-          <input type="radio" ng-model="pcCtrl.answer" value="gaming"> Gaming<br>
-          <input type="radio" ng-model="pcCtrl.answer" value="video"> Video/Photo Editing<br>
-          <input type="radio" ng-model="pcCtrl.answer" value="3d"> Rendering/3D Models<br>
-          <input type="radio" ng-model="pcCtrl.answer" value="web"> Web Surfing<br>
-          <input type="radio" ng-model="pcCtrl.answer" value="pro"> Professional<br>
+          <div ng-repeat="hobby in pcCtrl.hobbies">
+            <input type="radio" ng-model="pcCtrl.answer" value="{{hobby.value}}"> {{hobby.label}}<br>
+          </div>
           <button class="btn btn-black" ng-click="pcCtrl.submitAnswer(pcCtrl.answer)">Build a PC</button>
         </form>
     </div>
