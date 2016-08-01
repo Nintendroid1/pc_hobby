@@ -1,10 +1,10 @@
 <div class="col-md-12">
   <div class="panel panel-default panel-padded panel-pushed-down">
-    <h1>PC Hobby: {{partsCtrl.build}}</h1>
-
+    <h1>PC Hobby - {{partsCtrl.build}}</h1>
+    <!-- <h1>PC Hobby</h1> -->
     <div ng-repeat="type in partsCtrl.computers" ng-show="type.type === partsCtrl.build">
       <div ng-repeat="build in type.builds">
-        <h2>{{build.grade}}
+        <h2>{{build.grade}}</h2>
         <table>
           <tr>
             <th>Part Type</th>
@@ -18,7 +18,7 @@
             <td>{{part.name}}</td>
             <td><img ng-src="{{part.imgUrl}}"></td>
             <td>{{part.price}}</td>
-            <td><a ng-href="{{part.purchaseLink}}" class="btn">Buy</a></td>
+            <td><a ng-href="{{part.purchaseLink}}" target="_blank" class="btn">Buy</a></td>
           </tr>
         </table>
       </div>
