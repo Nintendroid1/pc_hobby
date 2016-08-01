@@ -2,7 +2,7 @@
   <div class="panel panel-default panel-padded panel-pushed-down">
     <h1>PC Hobby - {{partsCtrl.build}}</h1>
     <!-- <h1>PC Hobby</h1> -->
-    <div ng-repeat="type in partsCtrl.computers" ng-show="type.type === partsCtrl.build">
+    <div ng-repeat="type in partsCtrl.serverData.computers" ng-show="type.type === partsCtrl.build">
       <div ng-repeat="build in type.builds">
         <h2>{{build.grade}}</h2>
         <table>
@@ -23,5 +23,6 @@
         </table>
       </div>
     </div>
+
   </div>
 </div>

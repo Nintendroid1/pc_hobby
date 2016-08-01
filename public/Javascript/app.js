@@ -1,10 +1,12 @@
 var app = angular.module('pc_hobby', [
-    'ngRoute'
+    'ngRoute',
+    'firebase'
 ]).
 config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when("/questionaire", {templateUrl: "questionaire.html", controller: "pc_Controller", controllerAs: "pcCtrl"})
         .when("/pc_parts", {templateUrl: "pc_parts.html", controller: "parts_Controller", controllerAs: "partsCtrl"})
+        .when("/admin", {templateUrl: "admin.html", controller: "admin_Controller", controllerAs: "adminCtrl"})
         .otherwise({redirectTo: '/questionaire'});
 }]);
 
@@ -17,10 +19,14 @@ app.controller('pc_Controller', function($location){
     };
 });
 
-app.controller('parts_Controller', function($location) {
+app.controller('parts_Controller', function($location, $firebaseArray, $firebaseObject) {
     var searchObject = $location.search();
     this.build = searchObject.build;
 
+    var ref = firebase.database().ref();
+    this.serverData = $firebaseObject(ref);
+
+    //No used anymore.  It's in Firebase :)
     this.computers = [
         {
             type: "gaming", 
@@ -117,5 +123,25 @@ app.controller('parts_Controller', function($location) {
         $(this).tab('show')
     });
 
+});
+
+app.controller('admin_Controller', function($firebaseObject){
+    var ref = firebase.database().ref();
+    this.serverData = $firebaseObject(ref);
+    this.save = function(){
+        this.serverData.$save();
+    }
+
+    this.addHobby = function(){
+        this.serverData.computers.push({builds:[], type: "ChangeMe"});
+    }
+
+    this.addBuild = function(type){
+        type.builds.push({grade: "Bare", parts:[]});
+    }
+
+    this.addPart = function(build){
+        build.parts.push({component: "metal"});
+    }
 });
 
