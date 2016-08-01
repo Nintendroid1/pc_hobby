@@ -126,6 +126,7 @@ app.controller('parts_Controller', function($location, $firebaseArray, $firebase
     this.getBuildPrice = function(build){
         var totalPrice = 0;
         angular.forEach(build.parts, function(part){
+            totalPrice = totalPrice + parseFloat(part.price);
         })
         return totalPrice;
     }
