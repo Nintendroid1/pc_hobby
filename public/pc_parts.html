@@ -19,14 +19,14 @@
             <td>{{part.component}}</td>
             <td>{{part.name}}</td>
             <td><img ng-src="{{part.imgUrl}}"></td>
-            <td>{{part.price}}</td>
+            <td>{{part.price |currency}}</td>
             <td><a ng-href="{{part.purchaseLink}}" target="_blank" class="btn">Buy</a></td>
           </tr>
           <tr>
             <td></td>
             <td></td>
             <td></td>
-            <td>{{partsCtrl.getBuildPrice(build)}}</td>
+            <td>{{partsCtrl.getBuildPrice(build) |currency}}</td>
             <td></td>
           </tr>
         </table>
