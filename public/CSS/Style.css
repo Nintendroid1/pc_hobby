@@ -2,6 +2,7 @@ body {
   font-family: Roboto, Arial, sans-serif;
   background-size: 100%;
   color: rgba(0,50,0,0.87);
+  padding-bottom:50px;
 }
 
 
@@ -26,4 +27,8 @@ body {
 .btn.btn-black {
   color: white;
   background-color: black;
+}
+
+.navbar-collapse.collapse {
+display: block!important;
 }

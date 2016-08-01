@@ -123,6 +123,14 @@ app.controller('parts_Controller', function($location, $firebaseArray, $firebase
         $(this).tab('show')
     });
 
+    this.getBuildPrice = function(build){
+        var totalPrice = 0;
+        angular.forEach(build.parts, function(part){
+            totalPrice = totalPrice + parseInt(part.price,2);
+        })
+        return totalPrice;
+    }
+
 });
 
 app.controller('admin_Controller', function($firebaseObject){
