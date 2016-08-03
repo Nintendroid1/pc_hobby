@@ -1,0 +1,777 @@
+{
+  "computers" : [ {
+    "builds" : [ {
+      "grade" : "low-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/c10cd2113e02da247e6fe4d2182d4682.256p.jpg",
+        "name" : "Intel Core i3-6100 3.7GHz Dual-Core Processor",
+        "price" : "110.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=I3-6100BOX&c=CJ"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://www.superbiiz.com/newg/M/B/-/MB-B15MHDS/MB-B15MHDS.JPG",
+        "name" : "ASRock B150M-HDS Micro ATX LGA1151 Motherboard",
+        "price" : "58.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=MB-B15MHDS&c=CJ"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/b8dac72cc46497ef1f21e613cffbd16b.med.256p.jpg",
+        "name" : "Crucial 8GB 288-Pin DDR4 SDRAM DDR4 2133",
+        "price" : "37.29",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148857"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/1a2d5795a5e7d73d992837f187543c1b.256p.jpg",
+        "name" : "A-Data Premier SP550 240GB 2.5\" Solid State Drive",
+        "price" : "57.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820211984&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/4ce7be80c97a065675dec4a02dda6eab.256p.jpg",
+        "name" : "Seagate Pipeline HD 2TB 3.5\" 5900RPM Internal Hard Drive",
+        "price" : "54.90",
+        "purchaseLink" : "https://www.amazon.com/Seagate-Pipeline-ST2000VM002-Internal-Drive/dp/B0051F2PUM/156-1001822-7024910?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/14-121-978-TS?$S640$",
+        "name" : "Asus Radeon R9 380 4GB Video Card",
+        "price" : "174.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16814121978&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Case",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/5f344a50ab803978a2f501b6b3a0083d.med.256p.jpg",
+        "name" : "Fractal Design Core 1000 USB 3.0 MicroATX Mid Tower Case",
+        "price" : "27.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16811352032&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/3b237d811870a1f0385c367842eacec2.256p.jpg",
+        "name" : "Rosewill 550W 80+ Gold Certified Semi-Modular ATX Power Supply",
+        "price" : "59.99",
+        "purchaseLink" : "https://pcpartpicker.com/mr/newegg/Xgwqqs"
+      } ]
+    }, {
+      "grade" : "mid-range",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/8adc98695d02dae06f916d051323b0b5.256p.jpg",
+        "name" : "Intel Core i5-6500 3.2GHz Quad-Core Processor",
+        "price" : "199.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=I5-6500BOX&c=CJ"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/b12457f8df7fdd1b380cbdfe58bc8a65.256p.jpg",
+        "name" : "Gigabyte GA-B150M-DS3H Micro ATX LGA1151 Motherboard",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16813128881&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/429cdd5dec4680b9df0956f893b8669c.256p.jpg",
+        "name" : "Mushkin Blackline 16GB (2 x 8GB) DDR4-2400 Memory",
+        "price" : "59.98",
+        "purchaseLink" : "http://www.outletpc.com/gj6206-mushkin-blackline-16gb-2x8gb-997199f-pc419200-ddr.html?utm_source=gj6206-mushkin-blackline-16gb-2x8gb-997199f-pc419200-ddr&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Mushkin%2B-%2BMemory%20%28RAM%29%20%3E%20Desktop%20%2D%20DDR4%20Memory"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://www.superbiiz.com/newg/S/K/H/SKHFS250G/SKHFS250G.JPG",
+        "name" : "SK hynix SL308 250GB 2.5\" Solid State Drive",
+        "price" : "64.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=SKHFS250G&c=CJ"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/381207fcd3c13610d787357c9cae8627.med.256p.jpg",
+        "name" : "Seagate Barracuda 2TB 3.5\" 7200RPM Internal Hard Drive",
+        "price" : "67.08",
+        "purchaseLink" : "https://www.amazon.com/Seagate-Desktop-3-5-Inch-Internal-ST2000DM001/dp/B005T3GRN2?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://www.superbiiz.com/newg/A/S/-/AS-T10708G/AS-T10708G.JPG",
+        "name" : "Asus GeForce GTX 1070 8GB Video Card",
+        "price" : "409.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=AS-T10708G&c=CJ"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/d6cee353013944b4055796d131cfba62.256p.jpg",
+        "name" : "Thermaltake Core V21 MicroATX Mini Tower Case",
+        "price" : "59.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16811133274&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/0c0af70a69e051ed8f10cd2776ed24a2.256p.jpg",
+        "name" : "EVGA SuperNOVA G2 550W 80+ Gold Certified Fully-Modular ATX Power Supply",
+        "price" : "79.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=EV-550WGY&c=CJ"
+      } ]
+    }, {
+      "grade" : "high-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/50d6d4332c55b9c1acc39474c5cefde2.256p.jpg",
+        "name" : "Intel Core i5-6600K 3.5GHz Quad-Core Processor",
+        "price" : "238.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=I5-6600KBX&c=CJ"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/83b8a54ab568a7939af313a1b94b2416.256p.jpg",
+        "name" : "CRYORIG H7 49.0 CFM CPU Cooler",
+        "price" : "34.99",
+        "purchaseLink" : "https://www.amazon.com/CRYORIG-H7-Tower-Cooler-Intel/dp/B00S7YA5FQ?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/25e8141785cf587cbca7a4aad903e0a8.256p.jpg",
+        "name" : "MSI Z170A KRAIT GAMING 3X ATX LGA1151 Motherboard",
+        "price" : "147.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=MB-Z17AKG3&c=CJ"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/429cdd5dec4680b9df0956f893b8669c.256p.jpg",
+        "name" : "Mushkin Blackline 16GB (2 x 8GB) DDR4-2400 Memory",
+        "price" : "59.98",
+        "purchaseLink" : "http://www.outletpc.com/gj6206-mushkin-blackline-16gb-2x8gb-997199f-pc419200-ddr.html?utm_source=gj6206-mushkin-blackline-16gb-2x8gb-997199f-pc419200-ddr&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Mushkin%2B-%2BMemory%20%28RAM%29%20%3E%20Desktop%20%2D%20DDR4%20Memory"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/8437d2c64208f498cd53df5ac15e29cb.256p.jpg",
+        "name" : "PNY CS1311 960GB 2.5\" Solid State Drive",
+        "price" : "219.99",
+        "purchaseLink" : "http://www.bestbuy.com/site/pny-960gb-internal-sata-solid-state-drive-for-laptops/5099903.p?id=bb5099903&ref=199&loc=8BacdVP0GFs&acampID=1&siteID=8BacdVP0GFs-xwOfFRR9QP7FeMTDdJ9Z.w"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://www.superbiiz.com/newg/A/S/-/AS-T10708G/AS-T10708G.JPG",
+        "name" : "Asus GeForce GTX 1080 8GB Video Card",
+        "price" : "595.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=AS-T10808G&c=CJ"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/57d05c5251d8e4cdc9048f61fb083961.256p.jpg",
+        "name" : "Phanteks Enthoo Evolv ATX Glass ATX Mid Tower Case",
+        "price" : "209.99",
+        "purchaseLink" : "https://www.amazon.com/Phanteks-Enthoo-Evolv-Computer-Case/dp/B01F0KWL6A?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "https://cdn.pcpartpicker.com/static/forever/images/product/c35add27a96c79471c2bed07de61206c.med.256p.jpg",
+        "name" : "SeaSonic G 550W 80+ Gold Certified Semi-Modular ATX Power Supply",
+        "price" : "79.99",
+        "purchaseLink" : "http://www.ncixus.com/products/?usaffiliateid=1000031504&sku=76942&promoid=1071"
+      } ]
+    } ],
+    "type" : "gaming"
+  }, {
+    "builds" : [ {
+      "grade" : "low-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/61my%2BL5GsFL._SL1024_.jpg",
+        "name" : "Intel Boxed Core I5-6500 FC-LGA14C 3.20 Ghz 6 M Processor Cache 4 LGA 1151",
+        "price" : "204.99",
+        "purchaseLink" : "https://www.amazon.com/Intel-I5-6500-FC-LGA14C-Processor-BX80662I56500/dp/B010T6CWI2?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/91UNx7QSvpL._SL1500_.jpg",
+        "name" : "Cooler Master Hyper 212 EVO - CPU Cooler with 120mm PWM Fan",
+        "price" : "29.99",
+        "purchaseLink" : "https://www.amazon.com/Cooler-Master-Hyper-212-RR-212E-20PK-R2/dp/B005O65JXI?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://images10.newegg.com/productimage/13-130-892-01.jpg",
+        "name" : "MSI Z170-A PRO LGA 1151 Intel Z170 SATA 6Gb/s USB 3.1 ATX Intel Motherboard",
+        "price" : "114.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16813130892&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/41iS9lUJ9nL.jpg",
+        "name" : "Crucial 8GB Single DDR4 2133 MT/s (PC4-17000) CL15 DR x8 Unbuffered DIMM 288-Pin Desktop Memory",
+        "price" : "39.69",
+        "purchaseLink" : "https://www.amazon.com/Crucial-PC4-17000-Unbuffered-288-Pin-CT8G4DFD8213/dp/B00MMLUYVU?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/417mO6VMqrL.jpg",
+        "name" : "SanDisk Ultra II 240GB SATA III 2.5-Inch 7mm Height Solid State Drive (SSD) with Read Up To 550MB/s-",
+        "price" : "71.99",
+        "purchaseLink" : "https://www.amazon.com/SanDisk-Ultra-2-5-Inch-Height-SDSSDHII-240G-G25/dp/B00M8ABEIM?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/81er60GziAL._SL1500_.jpg",
+        "name" : "Seagate 1TB Desktop HDD SATA 6Gb/s 64MB Cache 3.5-Inch Internal Bare Drive",
+        "price" : "49.99",
+        "purchaseLink" : "https://www.amazon.com/Seagate-Desktop-3-5-Inch-Internal-ST1000DM003/dp/B005T3GRNW?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/51N9xor%2B8TL._SX355_.jpg",
+        "name" : "ZOTAC GeForce GTX 750Ti 2GB GDDR5 PCI Express 3.0 DVI HDMI DisplayPort Video Graphics Card",
+        "price" : "104.99",
+        "purchaseLink" : "https://www.amazon.com/ZOTAC-GeForce-DisplayPort-Graphics-ZT-70605-10M/dp/B00M27TSJS?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/61k%2ButIGpvL._SL1080_.jpg",
+        "name" : "Corsair Carbide Series 200R Compact ATX Case",
+        "price" : "55.11",
+        "purchaseLink" : "https://www.amazon.com/Corsair-Carbide-200R-Compact-Case/dp/B009GXZ8MM?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/17-182-329-TS?$S640W$",
+        "name" : "Rosewill Valens-500M, Valens Series 500W Modular Power Supply",
+        "price" : "64.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16817182329&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      } ]
+    }, {
+      "grade" : "mid-range",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/71V53vTiVhL._SL1500_.jpg",
+        "name" : "Intel Boxed Core I7-6700K 4.00 GHz 8M Processor Cache 4 LGA 1151",
+        "price" : "351.99",
+        "purchaseLink" : "https://www.amazon.com/Intel-Boxed-I7-6700K-Processor-BX80662I76700K/dp/B012M8LXQW?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/5a7e17771baa12d656af9e55881136f0.256p.jpg",
+        "name" : "Noctua NH-U12S 120x120x25 ( NF-F12 PWM) SSO2-Bearing ( Self-stabilising oil-presure bearing ) CPU Cooler",
+        "price" : "61.83",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16835608040&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/13-128-838-TS?$S640$",
+        "name" : "GIGABYTE GA-Z170X-UD5 (rev. 1.0) LGA 1151 Intel Z170 HDMI SATA 6Gb/s USB 3.1 USB 3.0 ATX Intel Motherboard",
+        "price" : "189.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16813128838&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/20-231-964-TS?$S640$",
+        "name" : "G.SKILL NT Series 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 2400 (PC4 19200) Intel Z170 Platform",
+        "price" : "63.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231964&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/91ZPflI8tzL._SL1500_.jpg",
+        "name" : "Samsung 850 EVO - 250GB - 2.5-Inch SATA III Internal SSD",
+        "price" : "89.99",
+        "purchaseLink" : "https://www.amazon.com/Samsung-850-EVO-2-5-Inch-MZ-75E250B/dp/B00OAJ412U?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/51SCm0i9XFL.jpg",
+        "name" : "HGST - IMSOURCING 0F12470 2TB ULTRASTAR 7.2K RPM 64MB",
+        "price" : "63.85",
+        "purchaseLink" : "https://www.amazon.com/HGST-IMSOURCING-0F12470-ULTRASTAR-7-2K/dp/B00PVXQBAE?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/71ij1-affaL._SL1200_.jpg",
+        "name" : "EVGA GeForce GTX 950 2GB GAMING, Silent Cooling Graphics Card",
+        "price" : "154.95",
+        "purchaseLink" : "https://www.amazon.com/EVGA-GeForce-Cooling-Graphics-02G-P4-2951-KR/dp/B013WQCC8Q?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/11-854-018-TS?$S640W$",
+        "name" : "Phanteks Enthoo Pro Series PH-ES614P_TG Titanium Green Steel / Plastic ATX Full Tower Computer Case",
+        "price" : "89.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16811854018&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/615rNRqcdvL._SL1200_.jpg",
+        "name" : "EVGA 650 GQ 80+ GOLD, 650W ECO Mode Semi Modular NVIDIA SLI and Crossfire Ready",
+        "price" : "84.99",
+        "purchaseLink" : "https://www.amazon.com/dp/B017HA3SQ8/ref=as_li_ss_tl?_encoding=UTF8&psc=1&linkCode=ll1&tag=logicaincrem-20&linkId=6756525523566286af8d585bed045513"
+      } ]
+    }, {
+      "grade" : "high-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/19-117-649-TS?$S640$",
+        "name" : "Intel Core i7-6800K 15M Broadwell-E 6-Core 3.4 GHz LGA 2011-v3 140W BX80671I76800K Desktop Processor",
+        "price" : "439.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117649&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/41fiHpTjPIL.jpg",
+        "name" : "Corsair Hydro Series H110i GTX Cooling",
+        "price" : "99.99",
+        "purchaseLink" : "https://www.amazon.com/Corsair-Hydro-H110i-GTX-Cooling/dp/B010NS1LVA?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/13-132-261-TS?$S640W$",
+        "name" : "ASUS X99-A LGA 2011-v3 Intel X99 SATA 6Gb/s USB 3.0 ATX Intel Motherboard",
+        "price" : "225.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16813132261&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/410ZIrDj5cL._SX355_PIbundle-2,TopRight,0,0_SX266SY355SH20_.jpg",
+        "name" : "Corsair Vengeance LPX 32GB (2x16GB) DDR4 DRAM 2666MHz (PC4-21300) C16 Memory Kit - Black",
+        "price" : "169.88",
+        "purchaseLink" : "https://www.amazon.com/Corsair-Vengeance-2x16GB-2666MHz-PC4-21300/dp/B0134EW44S?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/61tt0bD45aL._SL1034_.jpg",
+        "name" : "Samsung 950 PRO Series - 512GB PCIe NVMe - M.2 Internal SSD",
+        "price" : "317.99",
+        "purchaseLink" : "https://www.amazon.com/Samsung-950-PRO-Internal-MZ-V5P512BW/dp/B01639694M?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/22-145-912-TS?$S640W$",
+        "name" : "HGST Deskstar NAS H3IKNAS40003272SN (0S03664) 4TB 7200 RPM 64MB Cache SATA 6.0Gb/s 3.5\" High-Performance Hard Drive",
+        "price" : "157.49",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16822145912&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://images17.newegg.com/is/image/newegg/14-487-088-TS?$S640$",
+        "name" : "EVGA GeForce GTX 970 04G-P4-3975-KR 4GB SSC GAMING w/ACX 2.0+, Whisper Silent Cooling Graphics Card",
+        "price" : "309.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16814487088&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-LogicalIncrements.com%20Inc-_-na-_-na-_-na&cm_sp=&AID=10440897&PID=5961731&SID=0"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/417I2NvAcbL._SY355_.jpg",
+        "name" : "NZXT Phantom 820 Full Tower Chassis with RGB Color Changing Lights and Fan Control CA-PH820-W1, White (Shell Only)",
+        "price" : "219.99",
+        "purchaseLink" : "https://www.amazon.com/NZXT-Phantom-Chassis-Changing-CA-PH820-W1/dp/B009QZH22E?ie=UTF8&tag=li-org-per-video-us-20"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/71eSMS5ez2L._SL1200_.jpg",
+        "name" : "EVGA SuperNOVA 750 G2 80+ GOLD, 750W ECO Mode Fully Modular NVIDIA SLI and Crossfire Ready 10 Year Warranty Power Supply",
+        "price" : "109.99",
+        "purchaseLink" : "https://www.amazon.com/EVGA-SuperNOVA-Crossfire-Warranty-220-G2-0750-XR/dp/B00IKDETOW?ie=UTF8&tag=li-org-per-video-us-20"
+      } ]
+    } ],
+    "type" : "video"
+  }, {
+    "builds" : [ {
+      "grade" : "low-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/83244e8e2a0e9660fd44d93ef7455222.med.256p.jpg",
+        "name" : "Intel Core i7-4770 3.4GHz Quad-Core Processor",
+        "price" : "299.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=I7-4770BOX&c=CJ"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/5a7e17771baa12d656af9e55881136f0.1600.jpg",
+        "name" : "Noctua NH-U9B SE2 37.9 CFM CPU Cooler",
+        "price" : "59.99",
+        "purchaseLink" : "https://www.amazon.com/Noctua-Silent-Cooling-NH-U9B-SE2/dp/B0065SFEE8?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/ea86b5d191aac4668844efdc0100715e.med.1600.jpg",
+        "name" : "Asus Z87-Plus ATX LGA1150 Motherboard",
+        "price" : "129.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=MB-Z87PLUS&c=CJ"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/f3d45ebe41e77a0f1d5ffba037cdfbc9.med.256c.jpg",
+        "name" : "G.Skill Ripjaws X Series 16GB (2 x 8GB) DDR3-1866 Memory",
+        "price" : "66.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231615&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.1600.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "125.49",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148820"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cfae225dd3e43bf766ab1468189a4703.thumb.1600.jpg",
+        "name" : "Western Digital Caviar Blue 1TB 3.5\" 7200RPM Internal Hard Drive",
+        "price" : "47.49",
+        "purchaseLink" : "http://www.outletpc.com/dx5854-western-digital-caviar-blue-1tb.html?utm_source=dx5854-western-digital-caviar-blue-1tb&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Western%20Digital%2B-%2BHard%20Drives%20%26%20SSD%20%3E%203%2E5%22%20SATA%20Hard%20Drives"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/c1b6a57f250e70b0e7d4682469aaa60b.med.1600.jpg",
+        "name" : "Sapphire Radeon R9 280 3GB Dual-X Video Card",
+        "price" : "319.99",
+        "purchaseLink" : "https://www.amazon.com/Sapphire-Radeon-PCI-Express-Graphics-11230-00-20G/dp/B00IZXOW80"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/21191bead8fe5d1b9c9bc69d1030c242.med.1600.jpg",
+        "name" : "Corsair 200R ATX Mid Tower Case",
+        "price" : "59.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16811139018&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/9d9f3c0e1ef30f2777ec5d5a72cd0c3d.1600.jpg",
+        "name" : "SeaSonic 620W 80+ Bronze Certified Fully-Modular ATX Power Supply",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=PSM12II620&c=CJ"
+      } ]
+    }, {
+      "grade" : "mid-range",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/2759ebdd0aef9e65d9b1e846359b2ab9.med.256p.jpg",
+        "name" : "Intel Core i7-4790K 4.0GHz Quad-Core Processor",
+        "price" : "339.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117369&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/ddea57de9797549e80d05fb3acb2e83d.med.256c.jpg",
+        "name" : "Cooler Master Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler",
+        "price" : "39.38",
+        "purchaseLink" : "http://www.outletpc.com/hn6355.html?utm_source=hn6355&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Cooler%20Master%2B-%2BFans%20%28Cooling%29%20%3E%20CPU%20Fans%20%26%20Heatsinks%20%3E%20Intel%20Processor%20Coolers"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/f8d11d1071a1631df19f27d40fc1955e.med.1600.jpg",
+        "name" : "Gigabyte GA-Z97X-SLI ATX LGA1150 Motherboard",
+        "price" : "94.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16813128714&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/7e457ed32840c34d919a8df68d2cd152.med.1600.jpg",
+        "name" : "Crucial Ballistix Sport 16GB (2 x 8GB) DDR3-1600 Memory",
+        "price" : "67.88",
+        "purchaseLink" : "http://www.outletpc.com/fp3579-crucial-ballistix-sport-16gb-ddr3-memory.html?utm_source=fp3579-crucial-ballistix-sport-16gb-ddr3-memory&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Crucial%2B-%2BMemory%20%28RAM%29%20%3E%20Desktop%20-%20DDR3%20Memory"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.1600.jpg",
+        "name" : "Crucial MX100 512GB 2.5\" Solid State Drive",
+        "price" : "212.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148821"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cfae225dd3e43bf766ab1468189a4703.thumb.1600.jpg",
+        "name" : "Western Digital Caviar Blue 1TB 3.5\" 7200RPM Internal Hard Drive",
+        "price" : "47.49",
+        "purchaseLink" : "http://www.outletpc.com/dx5854-western-digital-caviar-blue-1tb.html?utm_source=dx5854-western-digital-caviar-blue-1tb&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Western%20Digital%2B-%2BHard%20Drives%20%26%20SSD%20%3E%203%2E5%22%20SATA%20Hard%20Drives"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/f3ccbba2f127d998fb16fe8b7dc048a7.med.1600.jpg",
+        "name" : "Gigabyte GeForce GTX 970 4GB WINDFORCE 3X Video Card",
+        "price" : "279.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16814125685&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/deee647e558d320d8bea0184a442bf97.med.1600.jpg",
+        "name" : "Fractal Design Define R4 Blackout ATX Mid Tower Case",
+        "price" : "103.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=CA-DR4BLO&c=CJ"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/1d2ca64eece49102b8fe1f5af578f1dc.med.1600.jpg",
+        "name" : "EVGA 750W 80+ Bronze Certified Semi-Modular ATX Power Supply",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16817438028&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      } ]
+    }, {
+      "grade" : "high-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/3e1e53e1c14368995d467c7d0ff1b7e3.med.1600.jpg",
+        "name" : "Intel Core i7-5930K 3.5GHz 6-Core Processor",
+        "price" : "574.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=I7-5930KBX&c=CJ"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/ddea57de9797549e80d05fb3acb2e83d.med.1600.jpg",
+        "name" : "Cooler Master Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler",
+        "price" : "39.38",
+        "purchaseLink" : "http://www.outletpc.com/hn6355.html?utm_source=hn6355&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Cooler%20Master%2B-%2BFans%20%28Cooling%29%20%3E%20CPU%20Fans%20%26%20Heatsinks%20%3E%20Intel%20Processor%20Coolers"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/739c6386036bd717df4b8d7f5b34438e.med.256p.jpg",
+        "name" : "ASRock X99 Extreme4 ATX LGA2011-3 Motherboard",
+        "price" : "200.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16813157543&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/d5c1c80b8946556f9f1389c6ba636fd9.256p.jpg",
+        "name" : "G.Skill Ripjaws 4 series 16GB (2 x 8GB) DDR4-2133 Memory",
+        "price" : "65.89",
+        "purchaseLink" : "http://www.outletpc.com/py4179-g-skill-f4-2133c15d-16grr.html?utm_source=py4179-g-skill-f4-2133c15d-16grr&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Gskill%2B-%2BMemory%20%28RAM%29%20%3E%20Desktop%20-%20DDR4%20Memory"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/e46ea83d20b504fc691293d4a1d95bc1.med.1600.jpg",
+        "name" : "Samsung 850 Pro Series 512GB 2.5\" Solid State Drive",
+        "price" : "224.00",
+        "purchaseLink" : "http://www.bhphotovideo.com/c/product/1063644-REG/samsung_mz_7ke512bw_850_pro_512gb_2_5.html"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/4c9c14e9fd3d791327937fdc16b9429f.med.256p.jpg",
+        "name" : "Western Digital BLACK SERIES 4TB 3.5\" 7200RPM Internal Hard Drive",
+        "price" : "196.99",
+        "purchaseLink" : "http://www.bhphotovideo.com/c/product/1011524-REG/wd_wd4003fzex_4tb_sata_6gb_s_3_5.html"
+      }, {
+        "component" : "Video Card",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/2a5d5b2efa516d602972a7437d0bc1c4.256c.jpg",
+        "name" : "EVGA GeForce GTX 980 Ti 6GB Superclocked ACX 2.0+ Video Card",
+        "price" : "649.99",
+        "purchaseLink" : "http://www.bhphotovideo.com/c/product/1158704-REG/evga_06g_p4_4993_kr_geforce_gtx_980_ti.html"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/aee06e6135675c536a71c536330c7341.med.256c.jpg",
+        "name" : "EVGA 850W 80+ Gold Certified Fully-Modular ATX Power Supply",
+        "price" : "128.89",
+        "purchaseLink" : "http://www.outletpc.com/it4157-supernova-850g2-850w-atx-power-supply.html?utm_source=it4157-supernova-850g2-850w-atx-power-supply&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=EVGA%2B-%2BPower%20Supplies%20%3E%20ATX%20Power%20Supply"
+      } ]
+    } ],
+    "type" : "3d"
+  }, {
+    "builds" : [ {
+      "grade" : "low-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/b77dfb954d8ef869e3de70f5a441346b.med.256p.jpg",
+        "name" : "AMD 5350 2.05Ghz Quad-Core Processor",
+        "price" : "35.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=AD5350BOX&c=CJ"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/1e87e240476a7d2e86c9cf4acf2276dd.med.256p.jpg",
+        "name" : "Gigabyte GA-AM1M-S2H Micro ATX AM1 Motherboard",
+        "price" : "34.58",
+        "purchaseLink" : "http://www.outletpc.com/hw1489-gigabyte-ga-am1m-s2h-fs1b-motherboard.html?utm_source=hw1489-gigabyte-ga-am1m-s2h-fs1b-motherboard&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Gigabyte%2B-%2BMotherboards%20%3E%20AMD%20Socket%20AM1"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/daca7dba8778b6f476c5b0436c726710.med.256p.jpg",
+        "name" : "G.Skill 4GB (2 x 2GB) DDR3-1600 Memory",
+        "price" : "24.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231193&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/80c8da746a14519be9e5824de597deae.med.256p.jpg",
+        "name" : "Corsair Force LX Series 128GB 2.5\" Solid State Drive",
+        "price" : "97.96",
+        "purchaseLink" : "https://www.amazon.com/Corsair-Force-Solid-2-5-Inch-CSSD-F128GBLX/dp/B00KGZNGHS?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/980283e5302e28a6d2ee5ad888ace409.256p.jpg",
+        "name" : "Rosewill FBM-01 MicroATX Mini Tower Case",
+        "price" : "29.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16811147123&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/ee2c35e6ae8402c581642641d4216e3c.256p.jpg",
+        "name" : "Corsair Builder 430W 80+ Bronze Certified ATX Power Supply",
+        "price" : "47.83",
+        "purchaseLink" : "http://www.outletpc.com/oo5931-cp-9020046-us-corsair-cx430-v2-builder-series.html?utm_source=oo5931-cp-9020046-us-corsair-cx430-v2-builder-series&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Corsair%2B-%2BPower%20Supplies%20%3E%20ATX%20Power%20Supply"
+      } ]
+    }, {
+      "grade" : "mid-range",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/2ca294ab7d1df3077239be71f56f1f45.med.256p.jpg",
+        "name" : "Intel Pentium G3258 3.2GHz Dual-Core Processor",
+        "price" : "64.99",
+        "purchaseLink" : "http://www.ncixus.com/products/?usaffiliateid=1000031504&sku=97890&promoid=1071"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/08b0efccf616289768a8b5f443f706e4.med.256p.jpg",
+        "name" : "MSI H81M-P33 Micro ATX LGA1150 Motherboard",
+        "price" : "42.88",
+        "purchaseLink" : "http://www.outletpc.com/ub7585-msi-h81m-p33-intel-lga-1150-microatx-motherboard.html?utm_source=ub7585-msi-h81m-p33-intel-lga-1150-microatx-motherboard&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=MSI%2B-%2BMotherboards%20%3E%20Intel%20LGA1150"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/80c17baa574ba9d19a7259ac009dc59a.med.256p.jpg",
+        "name" : "A-Data XPG V1.0 4GB (1 x 4GB) DDR3-1600 Memory",
+        "price" : "22.99",
+        "purchaseLink" : "https://www.amazon.com/ADATA-1600MHz-Memory-Modules-AX3U1600W4G9-RB/dp/B00F902OBO/151-9782849-1730756?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/b7eb56e9964f9c496126a903e3b198d3.med.256p.jpg",
+        "name" : "Kingston SSDNow V300 Series 120GB 2.5\" Solid State Drive",
+        "price" : "28.99",
+        "purchaseLink" : "http://www.ncixus.com/products/?usaffiliateid=1000031504&sku=78078&promoid=1071"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/07cb74a8ee40c7d3531cb2ece13e63ef.med.256p.jpg",
+        "name" : "Fractal Design Core 1100 MicroATX Mini Tower Case",
+        "price" : "27.89",
+        "purchaseLink" : "http://www.outletpc.com/bz4787-evga-400w-atx12v-power-supply.html?utm_source=bz4787-evga-400w-atx12v-power-supply&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=EVGA%2B-%2BPower%20Supplies%20%3E%20ATX%20Power%20Supply"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/76a0d0242e8ba0fb8415fc6f154ee3cb.med.256p.jpg",
+        "name" : "EVGA 400W ATX Power Supply",
+        "price" : "16.88",
+        "purchaseLink" : "http://www.outletpc.com/bz4787-evga-400w-atx12v-power-supply.html?utm_source=bz4787-evga-400w-atx12v-power-supply&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=EVGA%2B-%2BPower%20Supplies%20%3E%20ATX%20Power%20Supply"
+      } ]
+    }, {
+      "grade" : "high-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/e7e3ae88e8204f8819a3fcfaca09d29f.256p.jpg",
+        "name" : "Intel Core i3-4170 3.7GHz Dual-Core Processor",
+        "price" : "114.89",
+        "purchaseLink" : "http://www.outletpc.com/sn9375-intel-i3-4170-haswell-processor.html?utm_source=sn9375-intel-i3-4170-haswell-processor&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Intel%2B-%2BCPUs%20%28Processors%29%20%3E%20Intel%20LGA1150"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/36b78e913c123e0af60572a252dacaa5.med.256p.jpg",
+        "name" : "ASRock H81M-ITX Mini ITX LGA1150 Motherboard",
+        "price" : "59.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=MB-H81MITX&c=CJ"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/c96fc25a42adbec93c2c508e9e19b79b.256p.jpg",
+        "name" : "G.Skill Ripjaws Series 4GB (2 x 2GB) DDR3-1600 Memory",
+        "price" : "24.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231277&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cfae225dd3e43bf766ab1468189a4703.thumb.256p.jpg",
+        "name" : "Western Digital Caviar Blue 1TB 3.5\" 7200RPM Internal Hard Drive",
+        "price" : "47.49",
+        "purchaseLink" : "http://www.outletpc.com/dx5854-western-digital-caviar-blue-1tb.html?utm_source=dx5854-western-digital-caviar-blue-1tb&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Western%20Digital%2B-%2BHard%20Drives%20%26%20SSD%20%3E%203%2E5%22%20SATA%20Hard%20Drives"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://images10.newegg.com/ProductImage/A66Z_130676689128396630Ad50K93D0X.jpg",
+        "name" : "RAIJINTEK METIS Aluminum M-ITX Case",
+        "price" : "49.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=9SIA66Z2KU0640"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/68bda02b86f2be81e1b50fc8e3aee86b.med.256p.jpg",
+        "name" : "SeaSonic 520W 80+ Bronze Certified Fully-Modular ATX Power Supply",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=PSM12II520&c=CJ"
+      } ]
+    } ],
+    "type" : "web"
+  }, {
+    "builds" : [ {
+      "grade" : "low-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/d8c4e4eed5d7820248be99b5d7dd5dbd.med.256p.jpg",
+        "name" : "AMD FX-8350 4.0GHz 8-Core Processor",
+        "price" : "159.84",
+        "purchaseLink" : "http://www.outletpc.com/xt3562-fd8350frhkbox-amd-fx-8350-am3-vishera-processor.html?utm_source=xt3562-fd8350frhkbox-amd-fx-8350-am3-vishera-processor&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=AMD%2B-%2BCPUs%20%28Processors%29%20%3E%20AMD%20AM3%2B"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/097cbb2523cd252abd67ed5d26811947.med.256p.jpg",
+        "name" : "Asus M5A78L-M/USB3 Micro ATX AM3+ Motherboard",
+        "price" : "55.88",
+        "purchaseLink" : "http://www.outletpc.com/mi5361-asus-amd-am3-760g-matx-motherboard.html?utm_source=mi5361-asus-amd-am3-760g-matx-motherboard&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Asus%2B-%2BMotherboards%20%3E%20AMD%20Socket%20AM3"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/f3ea57666a3ac21e5cea74258d39905f.med.256p.jpg",
+        "name" : "G.Skill Ripjaws X Series 16GB (4 x 4GB) DDR3-2133 Memory",
+        "price" : "89.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231690&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.256p.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "156.75",
+        "purchaseLink" : "https://www.amazon.com/MODEL-Crucial-2-5-Inch-Internal-CT256MX100SSD1/dp/B00KFAGCWK?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.256p.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "156.75",
+        "purchaseLink" : "https://www.amazon.com/MODEL-Crucial-2-5-Inch-Internal-CT256MX100SSD1/dp/B00KFAGCWK?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/b9d49e4475bf61ccfa3a16644212007a.med.256p.jpg",
+        "name" : "Cooler Master N200 MicroATX Mid Tower Case",
+        "price" : "45.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=CA-200KKN1&c=CJ"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/9d9f3c0e1ef30f2777ec5d5a72cd0c3d.256p.jpg",
+        "name" : "SeaSonic 620W 80+ Bronze Certified Fully-Modular ATX Power Supply",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=PSM12II620&c=CJ"
+      } ]
+    }, {
+      "grade" : "mid-range",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/d8c4e4eed5d7820248be99b5d7dd5dbd.med.256p.jpg",
+        "name" : "AMD FX-8350 4.0GHz 8-Core Processor",
+        "price" : "159.84",
+        "purchaseLink" : "http://www.outletpc.com/xt3562-fd8350frhkbox-amd-fx-8350-am3-vishera-processor.html?utm_source=xt3562-fd8350frhkbox-amd-fx-8350-am3-vishera-processor&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=AMD%2B-%2BCPUs%20%28Processors%29%20%3E%20AMD%20AM3%2B"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/0d02a74e462786be0ed17892890bcaa8.med.256p.jpg",
+        "name" : "Corsair H80i 77.0 CFM Liquid CPU Cooler",
+        "price" : "119.89",
+        "purchaseLink" : "http://www.outletpc.com/ro1977-corsair-hydro-series-h80i-liquid-cooling-system.html?utm_source=ro1977-corsair-hydro-series-h80i-liquid-cooling-system&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Corsair%2B-%2BFans%20%28Cooling%29%20%3E%20Water%20Cooling%20%3E%20Watercooling%20Kits"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/59892ae6aff08f41446ace6dcaad3cce.med.256p.jpg",
+        "name" : "Asus M5A99FX PRO R2.0 ATX AM3+ Motherboard",
+        "price" : "133.88",
+        "purchaseLink" : "http://www.outletpc.com/ci9132-m5a99fx-pro-r20-asus-amd-990fx-am3-motherboard.html?utm_source=ci9132-m5a99fx-pro-r20-asus-amd-990fx-am3-motherboard&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Asus%2B-%2BMotherboards%20%3E%20AMD%20Socket%20AM3"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/f7cd8e9edfc605a560c70dc81cc11028.med.256p.jpg",
+        "name" : "G.Skill Ripjaws X Series 32GB (4 x 8GB) DDR3-2133 Memory",
+        "price" : "134.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231758&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.256p.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "156.75",
+        "purchaseLink" : "https://www.amazon.com/MODEL-Crucial-2-5-Inch-Internal-CT256MX100SSD1/dp/B00KFAGCWK?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.256p.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "156.75",
+        "purchaseLink" : "https://www.amazon.com/MODEL-Crucial-2-5-Inch-Internal-CT256MX100SSD1/dp/B00KFAGCWK?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/21191bead8fe5d1b9c9bc69d1030c242.med.256p.jpg",
+        "name" : "Corsair 200R ATX Mid Tower Case",
+        "price" : "65.88",
+        "purchaseLink" : "http://www.outletpc.com/yt3531-corsair-carbide-200r.html?utm_source=yt3531-corsair-carbide-200r&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Corsair%2B-%2BCases%20%3E%20ATX%20Cases"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/9d9f3c0e1ef30f2777ec5d5a72cd0c3d.256p.jpg",
+        "name" : "SeaSonic 620W 80+ Bronze Certified Fully-Modular ATX Power Supply",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=PSM12II620&c=CJ"
+      } ]
+    }, {
+      "grade" : "high-end",
+      "parts" : [ {
+        "component" : "CPU",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/3e1e53e1c14368995d467c7d0ff1b7e3.med.256p.jpg",
+        "name" : "Intel Core i7-5820K 3.3GHz 6-Core Processor",
+        "price" : "369.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=I7-5820KBX&c=CJ"
+      }, {
+        "component" : "CPU Cooler",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/0d02a74e462786be0ed17892890bcaa8.med.256p.jpg",
+        "name" : "Corsair H80i 77.0 CFM Liquid CPU Cooler",
+        "price" : "119.89",
+        "purchaseLink" : "http://www.outletpc.com/ro1977-corsair-hydro-series-h80i-liquid-cooling-system.html?utm_source=ro1977-corsair-hydro-series-h80i-liquid-cooling-system&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Corsair%2B-%2BFans%20%28Cooling%29%20%3E%20Water%20Cooling%20%3E%20Watercooling%20Kits"
+      }, {
+        "component" : "Motherboard",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/237f3837e07c6a5075fb58bb5aba35e6.med.256p.jpg",
+        "name" : "Asus X99-A ATX LGA2011-3 Motherboard",
+        "price" : "219.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=MB-X99-A&c=CJ"
+      }, {
+        "component" : "Memory",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/9cb28ab986038097828d64f209f2bbc6.med.256p.jpg",
+        "name" : "Corsair Vengeance LPX 16GB (4 x 4GB) DDR4-2400 Memory",
+        "price" : "86.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820233716&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Memory 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/9cb28ab986038097828d64f209f2bbc6.med.256p.jpg",
+        "name" : "Corsair Vengeance LPX 16GB (4 x 4GB) DDR4-2400 Memory",
+        "price" : "86.99",
+        "purchaseLink" : "http://www.newegg.com/Product/Product.aspx?Item=N82E16820233716&nm_mc=AFC-C8Junction&cm_mmc=AFC-C8Junction-PCPartPicker,%20LLC-_-na-_-na-_-na&cm_sp=&AID=10446076&PID=3938566&SID="
+      }, {
+        "component" : "Storage",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.256p.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "156.75",
+        "purchaseLink" : "https://www.amazon.com/MODEL-Crucial-2-5-Inch-Internal-CT256MX100SSD1/dp/B00KFAGCWK?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Storage 2",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/cb4440c0fab91349d8a3ca08e1316542.med.256p.jpg",
+        "name" : "Crucial MX100 256GB 2.5\" Solid State Drive",
+        "price" : "156.75",
+        "purchaseLink" : "https://www.amazon.com/MODEL-Crucial-2-5-Inch-Internal-CT256MX100SSD1/dp/B00KFAGCWK?ie=UTF8&tag=pcpapi-20"
+      }, {
+        "component" : "Case",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/21191bead8fe5d1b9c9bc69d1030c242.med.256p.jpg",
+        "name" : "Corsair 200R ATX Mid Tower Case",
+        "price" : "65.88",
+        "purchaseLink" : "http://www.outletpc.com/yt3531-corsair-carbide-200r.html?utm_source=yt3531-corsair-carbide-200r&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Corsair%2B-%2BCases%20%3E%20ATX%20Cases"
+      }, {
+        "component" : "Power Supply",
+        "imgUrl" : "http://cdn.pcpartpicker.com/static/forever/images/product/9d9f3c0e1ef30f2777ec5d5a72cd0c3d.256p.jpg",
+        "name" : "SeaSonic 620W 80+ Bronze Certified Fully-Modular ATX Power Supply",
+        "price" : "69.99",
+        "purchaseLink" : "http://www.superbiiz.com/detail.php?name=PSM12II620&c=CJ"
+      } ]
+    } ],
+    "type" : "pro"
+  } ]
+}
