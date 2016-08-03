@@ -4,14 +4,14 @@ var app = angular.module('pc_hobby', [
 ]).
 config(['$routeProvider', function($routeProvider) {
     $routeProvider
-        .when("/questionaire", {templateUrl: "questionaire.html", controller: "pc_Controller", controllerAs: "pcCtrl"})
+        .when("/questionaire", {templateUrl: "questionaire.html", controller: "questionaire_Controller", controllerAs: "pcCtrl"})
         .when("/pc_parts", {templateUrl: "pc_parts.html", controller: "parts_Controller", controllerAs: "partsCtrl"})
         .when("/admin", {templateUrl: "admin.html", controller: "admin_Controller", controllerAs: "adminCtrl"})
         .otherwise({redirectTo: '/questionaire'});
 }]);
 
 
-app.controller('pc_Controller', function($location, HobbyService){
+app.controller('questionaire_Controller', function($location, HobbyService){
     this.answer = "gaming";
     this.submitAnswer = function(answer) {
         $location.search('build', answer);
